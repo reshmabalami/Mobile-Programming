@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:id="@+id/num1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:id="@+id/num2"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/buttonadd"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Subtract"
+        android:id="@+id/buttonsub"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:id="@+id/buttonmul"/>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Divide"
+        android:id="@+id/buttondiv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#008080"
+        android:id="@+id/txtview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFACD"
+    tools:context=".firstfragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first number"/>
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number"/>
+
+
+    <Button
+        android:id="@+id/sumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum"/>
+
+    <Button
+        android:id="@+id/differenceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Difference"/>
+
+    <Button
+        android:id="@+id/multiplicationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication"/>
+
+    <Button
+        android:id="@+id/divisionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Get Result Here"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:id="@+id/viewResult"/>
+
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:stretchColumns="1"
+    android:padding="16dp">
+
+    <!-- First row with two cells, first cell spans two columns -->
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:text="Header 1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Header 2"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <!-- Second row with three cells -->
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 1, Col 1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 1, Col 2"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 1, Col 3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <!-- Third row with three cells, second cell spans two columns -->
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 2, Col 1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:text="Row 2, Col 2-3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <!-- Fourth row with three cells -->
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 3, Col 1"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 3, Col 2"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Row 3, Col 3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <!-- Fifth row with one cell spanning all three columns -->
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:text="Footer spanning all columns"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"
+            android:textSize="18sp" />
+    </TableRow>
+
+</TableLayout>
