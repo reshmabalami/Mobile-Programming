@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">array_string_and_colors</string>
-    <string-array name="my_array">
-        <item>नेपाल</item>
-        <item>भुटान</item>
-        <item>भारत</item>
-        <item>चिन</item>
+    <string-array name="my_array" >
+        <item>Singing</item>
+        <item>Dancing</item>
+        <item>Playing</item>
+        <item>Sleeping</item>
     </string-array>
 </resources>

@@ -12,9 +12,10 @@ android:id="@+id/main">
 
 <TextView
     android:id="@+id/my_textview"
+    android:textSize="20dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="के छ श्याम सर"
+    android:text="This is a normal string."
     android:textColor="@color/my_custom_color"
     android:layout_below="@id/my_spinner"
     android:layout_centerHorizontal="true"

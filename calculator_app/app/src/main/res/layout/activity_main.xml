@@ -17,11 +17,13 @@
         android:layout_height="wrap_content"
         android:hint="Enter First Number"
         android:id="@+id/num2"/>
+
     <Button
+        android:id="@+id/buttonadd"
         android:layout_width="150sp"
         android:layout_height="wrap_content"
-        android:text="Add"
-        android:id="@+id/buttonadd"/>
+        android:text="Add" />
+
     <Button
         android:layout_width="150sp"
         android:layout_height="wrap_content"
@@ -32,11 +34,13 @@
         android:layout_height="wrap_content"
         android:text="Multiply"
         android:id="@+id/buttonmul"/>
+
     <Button
+        android:id="@+id/buttondiv"
         android:layout_width="150sp"
         android:layout_height="wrap_content"
-        android:text="Divide"
-        android:id="@+id/buttondiv"/>
+        android:text="Divide" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
